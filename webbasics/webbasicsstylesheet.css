@@ -1,11 +1,12 @@
-header {color: black; 
+#header {color: black; 
     font-style: bold; 
-    font-size: x-large;
+    font-size: large;
     background-color: #7fa376; 
     padding: 10px;   
     border-radius: 25px;
     width: 30%;
-    margin: auto;}
+    margin: auto;
+    text-align: center;}
 
 body {background-color: beige;}
 
