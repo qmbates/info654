@@ -1,5 +1,5 @@
 #homepageheader {color: black; 
-    font-style: bold; 
+    font-weight: bold; 
     font-size: xx-large;
     background-color: #7fa376; 
     padding: 10px;   
@@ -10,7 +10,7 @@
     font-family: monospace;}
 
 .subpageheader {color: black; 
-    font-style: bold; 
+    font-weight: bold; 
     font-size: x-large;
     background-color: #7fa376; 
     padding: 5px;   
@@ -54,11 +54,11 @@ body {background-color: beige;}
         margin: auto;
         width: 35%;}
 
-table {border: solid 2px, #7fa376;
+table {border: solid 2px #7fa376;
         margin: auto;
         width: 100%;}
 
-td {border: dotted 1px, #594d3a;}
+td {border: dotted 1px #594d3a;}
 
 #turtlelist {position:relative;
             top: 50px;
