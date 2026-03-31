@@ -1,0 +1,72 @@
+#homepageheader {color: black; 
+    font-style: bold; 
+    font-size: xx-large;
+    background-color: #7fa376; 
+    padding: 10px;   
+    border-radius: 25px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;}
+
+.subpageheader {color: black; 
+    font-style: bold; 
+    font-size: x-large;
+    background-color: #7fa376; 
+    padding: 5px;   
+    border-radius: 15px;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-family: monospace;}
+
+body {background-color: beige;}
+
+.navbar {float:left;
+        position: relative;
+        top: 100px; 
+        height: 50%; 
+        width:20%; 
+        padding: 2px; 
+        border: 5px solid #7fa376; 
+        margin-bottom: 10px; 
+        font-family: monospace;
+        font-size: large;}
+
+.rightpic {float:right;
+            max-width: 70%;
+            height: auto;
+            font-family: monospace;
+            font-style:italic;}
+
+.maincontent {position:relative;
+            top: 50px;
+            margin: auto;
+            width: 50%;
+            text-align: center;
+            font-family: monospace;
+            font-size :x-large;}
+
+.centered {text-align: center;}
+
+#pic1 {position:relative;
+        top: 60px;
+        margin: auto;
+        width: 35%;}
+
+table {border: solid 2px, #7fa376;
+        margin: auto;
+        width: 100%;}
+
+td {border: dotted 1px, #594d3a;}
+
+#turtlelist {position:relative;
+            top: 50px;
+            margin: auto;
+            width: 50%;
+            font-family: monospace;
+            font-size :x-large;}
+
+.footer {clear:both;
+        font-family: monospace;
+        font-size :small;}
