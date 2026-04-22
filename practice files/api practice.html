@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html>
+        <head></head>  
+        <body>
+
+            <p>input title here</p>
+            <input type="text" id="title">
+            <button type="button" onclick="onClickSubmit()">give me movie</button>
+
+            <script>
+                async function onClickSubmit(){
+                    var title = document.getElementById("title").value;
+                    var url = `http://www.omdbapi.com/?apikey=fa9055ab&t=${title}&plot=full`
+                    var response = await fetch(url);
+                    var data = await response.json();
+                    document.getElementById('yr').innerText = data.Year;
+                    document.getElementById('info').innerText = data.Plot;
+                }
+            </script>
+            <div id="yr" type="text"></div>
+
+            <div id="info" type="text"></div>
+
+        </body> 
+    </html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <html>
+        <head> 
+            <meta charset="UTF-8">
+            <title>regurgitator</title>
+            <style>
+            </style>
+        </head> 
+        <body>
+            <p>the meal cost how much??????!!!!!!</p>
+            <input type="number" id="subtotal">
+            <p>i guess i'll tip this much (percent)</p>
+            <input type="number" id ="tipamt">
+            <button type="button" onclick="myFunction()">calculate</button>
+            <p id="spit"></p>
+            <script>
+                function myFunction(){
+                   const x = document.getElementById("subtotal").value;
+                   const y = document.getElementById("tipamt").value;
+                   let tippercent = y / 100;
+                   let tip = x * tippercent;
+                    total = +x + tip;
+                    document.getElementById("spit").innerHTML ="your total is $" + total + ".... you're a lousy tipper";
+                }
+            </script>
+        </body> 
+    </html>

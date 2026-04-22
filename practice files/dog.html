@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+    <html>
+        <head></head>  
+        <body>
+            <script>
+                async function onClickSubmit(){
+                    var url = "https://random.dog/woof.json";
+                    var response = await fetch(url);
+                    var jsonData = await response.json();
+                    var pictureUrl = jsonData.url;
+                    document.getElementById("display").innerHTML = `<img src="${pictureUrl}" alt="doggo">`;
+                }
+            </script>
+
+                <h2>ai jesus has sent you this dog.</h2>
+                <button type="button" onclick="onClickSubmit()">woof</button>
+                <div id ="display"></div>
+
+        </body> 
+    </html>

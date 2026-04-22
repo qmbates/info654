@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+    <html>
+        <head> 
+            <meta charset="UTF-8">
+            <title>regurgitator</title>
+            <style>
+            </style>
+        </head> 
+        <body>
+            <p>pick a number ya jerk!</p>
+            <input type="number" id="random">
+            <button type="button" onclick="myFunction()">enter</button>
+            <p id="spit"></p>
+            <script>
+                function myFunction(){
+                   let x = document.getElementById("random").value;
+                    document.getElementById("spit").innerHTML = "your stupid number is " + x + ", idiot";
+                }
+            </script>
+        </body> 
+    </html>
